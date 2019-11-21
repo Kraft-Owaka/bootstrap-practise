@@ -12,7 +12,7 @@ li, a, button {
     text-decoration: none;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1.5)),url('../images/logo.png');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url('../images/tea.jpeg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -40,6 +40,49 @@ header{
 .main_nav li a:hover{
     border: 1px solid white;
 }
+/*error affects the ability of the nav bar to hover*/
+.hero{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}/*error end */
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+/*btn*/
+.button {
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+.btn {
+    font-family: "Roboto", sans-serif;
+
+}
+.btn-two:hover{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+}
+
 /*logo location left*/
 .logo{
     cursor: pointer;
